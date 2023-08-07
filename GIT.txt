@@ -1,0 +1,51 @@
+GIT
+Git --version
+Touch index.js / Touch index.html (Create File)
+Git init ( initialize git repository in project folder)
+Git Config -- global user.name 'Usman'
+Git Config -- global user.name 'usman.sidd4400@gmail.com'
+
+Git add index.js (to add at local repository)
+Git status ( to check status of local repository)
+
+Git rm --cached index.js ( to remove from local repository)
+
+
+Git add *.html (add all html files)
+
+Git add . ( Add all files)
+Git commit
+Press i ( to insert)
+Esc
+:wq
+
+Git commit -m 'changed index.html'
+Git commit -m 'another change'
+/They are just comments
+
+Touch .gitignore
+
+
+In .gitignore
+Index.html (this file not add)
+*.html (all htmls not add)
+/Dir2 (this folder not add)
+
+
+Git branch login 
+Git checkout login ( you are in login branch from master)
+
+
+(To merge branch from master)
+(In master)
+Git merge login 
+Added login (in second line)
+
+
+Git touch readme.md 
+
+Git pull ( to fetch changes by other developers)
+
+Git clone 'path' ( to download project)
+
+Git push ( to update project from local to remote)

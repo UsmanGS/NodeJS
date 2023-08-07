@@ -1,0 +1,53 @@
+% node -v {To know Version}/ node -v for VS 
+% npm -v {To know Version}/ npm -v for VS
+
+node {To open REPL/interactive environment}
+CRTL + D {To exit REPL/interactive environment}
+
+CRTL + C {To close node server}
+
+
+Const a = performance.now(); 
+{Calculate the timestamp of upper program execution}
+
+npm init { we can not use npm without this} {npm is the world's largest Software Registry. The registry contains over 800,000 code packages}
+npm init -y {comes with all default options}
+
+npm install express/ or anything you have to download
+npm i express
+
+
+npm install nodemon --save-dev
+npm install nodemon 
+npm install --global nodemon
+
+
+"scripts":{
+
+   "start": "node index.js"
+}
+
+
+we only have to write 
+
+npm run start/ npm start instead of node index.js"
+
+
+
+"scripts":{
+
+   "start": "nodemon index.js"
+}
+
+
+we only have to write 
+
+npm run start instead of nodemon index.js"
+
+
+
+npm outdated = This command will check the installed packages are currently outdated or not.
+npm updated = update npm major/minor/patch updates
+
+
+ALT+SHIFT+F = Formatting

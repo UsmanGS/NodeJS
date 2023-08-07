@@ -1,0 +1,51 @@
+NodeJs = Runtime Environment for JS
+{Use to run JS program like on Browers}
+
+It is not a webserver
+Use for Heavy Input/output
+small code footprint {Best for Small/ Easy server & API's}
+
+
+Node modules provide a way to re-use code in your Node application. In some ways, they're similar to a class in other language
+
+Dependencies vs Devdependencies
+
+1- Dependencies is used to development purposes 
+2- Devdependencies is used for other tasking rather then coding/programming
+
+
+
+we have to update express with new update to keep project working properly
+
+
+"express": "^4.18.2"
+
+4 = major version
+18 = minor version
+2 = patch version
+
+* accept all updates
+^ accept minor & patch  updates
+~ accept only patch updates
+
+favicon.ico //image on browser table before name
+
+
+Req from Client/web
+1 - Request Line (POST, PUT, DELETE, GET, PATCH & etc.)
+2- Headers / extra info
+3- body
+
+Res from server
+1- status line (200, 404 etc.) https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+2- Headers  / extra info
+3- body
+
+The Domain Name System (DNS) turns domain names into IP addresses, which browsers use to load internet pages
+
+HTTPS port : 443
+
+
+server is a type of function that runs one time on any coming request.
+
+`const` is a signal that the identifier won't be reassigned. `let` is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm
