@@ -31,6 +31,10 @@ we have to update express with new update to keep project working properly
 favicon.ico //image on browser table before name
 
 
+
+A relative path describes the location of a file relative to the current directory. An absolute path describes the location from the root directory.
+
+
 Req from Client/web
 1 - Request Line (POST, PUT, DELETE, GET, PATCH & etc.)
 2- Headers / extra info
@@ -49,3 +53,49 @@ HTTPS port : 443
 server is a type of function that runs one time on any coming request.
 
 `const` is a signal that the identifier won't be reassigned. `let` is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm
+
+
+
+middleware is a layering of filters, it comes between client & server. It make changes in req & res.
+
+
+An Express application can use the following types of middleware:
+
+Application-level middleware - apply to whole project
+Router-level middleware - apply to selected routes (post, get, put, delete, patch)
+Error-handling middleware
+Built-in middleware
+Third-party middleware - Use third-party middleware to add extra functionality to Express apps (parse cookie or raw data etc.)
+
+you have to install Third-party middleware e.g. npm i morgan
+
+
+
+URL encoding converts characters into a format that can be transmitted over the Internet. URLs can only be sent over the Internet using the ASCII character-set. Since URLs often contain characters outside the ASCII set, the URL has to be converted into a valid ASCII format. e.g. https://www.youtube.com/watch?v=r5Ak4KY8-cs. "So v=r5Ak4KY8-cs is encoding".
+
+
+
+
+
+in static hosting, browser always search for index.html as a default page if you not defined anything after /.
+e.g.  localhost:8080/  | it opens index.html
+e.g.  localhost:8080/index.html | it opens index.html
+e.g.  localhost:8080/demo.html or data.json | it opens demo.html or data.json
+
+
+
+
+we can send data in request through
+
+1- URL query
+2- BODY
+3- URL PARAMS
+
+
+
+
+Create 3 query parameters name, age, subject with some values. Check the final output of req.query - can you find all data on server side. Can you send it back to client via res object?
+
+SOLUTION:
+
+http://localhost:3000/user?name=raj&age=20&subject=eng

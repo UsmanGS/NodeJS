@@ -42,7 +42,7 @@ Git merge login
 Added login (in second line)
 
 
-Git touch readme.md 
+touch readme.md 
 
 Git pull ( to fetch changes by other developers)
 
